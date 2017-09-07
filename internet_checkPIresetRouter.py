@@ -1,7 +1,7 @@
 #!/usr/bin/python
-// This script will toggle a GPIO in on a PI to power cycle a modem/router etc
-// I used it with https://www.adafruit.com/product/2935
-// This script is run from CRON
+# This script will toggle a GPIO in on a PI to power cycle a modem/router etc
+# I used it with https://www.adafruit.com/product/2935
+#  This script is run from CRON
 
 import socket
 import RPi.GPIO as GPIO
